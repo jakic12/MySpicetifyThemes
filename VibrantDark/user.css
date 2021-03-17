@@ -1,0 +1,35 @@
+/* remove ad banner */
+#view-leaderboard-ad, .billboard-ad{
+	display:none !important;
+}
+
+::-webkit-scrollbar {
+	width:5px;
+}
+
+/* ROUNDED IMAGE CORNERS*/
+.Card, .Card:hover:after, .Card__image, .card-image {
+	border-radius:10px !important;
+	/*border: 5px #ff0081 solid;*/
+	overflow:hidden;
+}
+
+.Card--artist .Card__image{
+	border-radius:500px !important;
+}
+
+/* CENTER PLAYLIST IMAGE
+.glue-page-header__image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* GIANT PLAYLIST BORDER
+.glue-page-header__title {
+	border: 10px solid white;
+	border-radius: .4em;
+	padding: 10px !important;
+	margin-bottom: .7em !important;
+}
+*/
